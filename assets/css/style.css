@@ -1,0 +1,83 @@
+.logo {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color:whitesmoke;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .navbar{
+    display: none;
+    position: absolute;
+    background-color: tan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    box-shadow:bisque;
+  }
+  .navbar{
+    color: black;
+    padding: 12px 395px;
+    text-decoration: none;
+    display: block;
+  }
+  .navbar a:hover {background-color:tan;}
+
+/* Show the dropdown menu on hover */
+.navbar .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.navbar  {background-color: saddlebrown;}
+
+p{
+    display: inline-block;
+    
+}
+p{
+    font-size: 20px;
+    border: 1px tan;
+}
+div {
+position: relative;
+margin-top: 10em;
+font-family: 'Times New Roman', Times, serif;
+}
+div{
+  background-color: antiquewhite;
+  color:goldenrod
+}
+img{
+  position: relative;
+  image-resolution: auto;
+  background-color: blanchedalmond;
+
+}
